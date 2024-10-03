@@ -1,7 +1,3 @@
-## README.md
-
-
-
 [![Azure](https://img.shields.io/badge/Azure-Snapshot%20Search%20and%20Destroy-blue)]
 [![Python](https://img.shields.io/badge/Python-3.7%2B-green)]
 [![License](https://img.shields.io/badge/License-MIT-yellow)]
