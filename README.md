@@ -1,12 +1,12 @@
 ## README.md
 
+
+
+[![Azure](https://img.shields.io/badge/Azure-Snapshot%20Search%20and%20Destroy-blue)]
+[![Python](https://img.shields.io/badge/Python-3.7%2B-green)]
+[![License](https://img.shields.io/badge/License-MIT-yellow)]
 ```markdown
 # Azure Snapshot Search and Destroy
-
-![Azure](https://img.shields.io/badge/Azure-Snapshot%20Search%20and%20Destroy-blue)
-![Python](https://img.shields.io/badge/Python-3.7%2B-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 The **Azure Snapshot Search and Destroy** is a powerful, interactive tool designed and created by Robert Suarez [rsuar29@albertsons.com] to streamline the management of Azure VM snapshots across all your subscriptions. It automates the process of searching, reporting, and cleaning up snapshots, saving you time and reducing cloud costs.
 
 ## ✨ Features
