@@ -48,7 +48,7 @@ cd azure-snapshot-snd
 ### Run the Script
 
 ```bash
-python azure_snapshot_snd.py
+python azure-snapshot-search-and-destroy.py
 ```
 
 ## 🛠 How to Use
