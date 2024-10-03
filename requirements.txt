@@ -1,2 +1,3 @@
 rich
 asyncio
+azure-cli
