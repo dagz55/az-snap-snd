@@ -1,4 +1,4 @@
-# recs_snapshot_management
+# RECS_SNAPSHOT_MANAGEMENT_APP
 Update: v.2.2.0
 # Azure Snapshot Search and Destroy
 
