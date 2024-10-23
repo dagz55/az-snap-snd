@@ -1,3 +1,5 @@
+# recs_snapshot_management
+Update: v.2.2.0
 # Azure Snapshot Search and Destroy
 
 
@@ -25,6 +27,7 @@ The **Azure Snapshot Search and Destroy** is a powerful, interactive tool design
 - **Asynchronous Operations**: Utilizes Python's asyncio for efficient, non-blocking execution.
 - **User-Friendly Interface**: Leverages the `rich` library for an interactive and visually appealing console experience.
 - **Comprehensive Logging**: Generates detailed logs for troubleshooting and audit purposes.
+- **Exclusion Patterns**: Supports excluding snapshots based on patterns specified in the 'exclude_snd.txt' file.
 
 ## 📋 Requirements
 
@@ -50,19 +53,19 @@ cd azure-snapshot-snd
 ### Run the Script
 
 ```bash
-python azure-snapshot-search-and-destroy.py
+python snapshot_search_and_destroy-latest.py
 ```
 
 ## 🛠 How to Use
 
-1. **Run the Script**: Execute `python azure_snapshot_snd.py` in your terminal.
+1. **Run the Script**: Execute `python snapshot_search_and_destroy-latest.py` in your terminal.
 
 2. **Azure Login**: If not logged in, the script will prompt you to log in to Azure.
 
    ```plaintext
    You are not logged in to Azure. Please log in.
 
-   To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code ABCD-EFGH to authenticate.
+   To sign in, open the page https://microsoft.com/devicelogin in a web browser and enter the code ABCD-EFGH to authenticate.
    ```
 
 3. **Enter Date Range**: Provide the start and end dates for the snapshot search.
@@ -109,6 +112,7 @@ python azure-snapshot-search-and-destroy.py
 
 - **Age Criteria**: Modify the `age_limit` variable in the script to change the age threshold for snapshot deletion.
 - **Environment Detection**: Adjust the `is_non_prod()` and `is_prod()` functions to match your organization's naming conventions for subscriptions.
+- **Exclusion Patterns**: Edit the 'exclude_snd.txt' file to specify patterns for snapshots that should be excluded from the search and deletion process.
 
 ## 📄 Logging
 
@@ -138,5 +142,14 @@ We welcome contributions! Please read our [contribution guidelines](CONTRIBUTING
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 📝 Changelog
+
+### v2.2.0 (Current)
+- Added exclusion functionality using 'exclude_snd.txt' file
+- Updated README with information about the new exclusion feature
+- Added changelog section to README
+
+### v2.1.1
+- Previous version (details not available)
+
 ---
-```
